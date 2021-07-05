@@ -40,7 +40,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'exp.png',
+    img: 'mp.png',
     title: 'Personal Portfolio',
     info: 'My very own personal portfolio that highlights all my projects and expresses my individuality as a front-end developer.',
     info2: 'HTML5, Javascript, React, Gatsby, Sass, React Bootstrap, React Reveal.',
