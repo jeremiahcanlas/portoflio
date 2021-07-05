@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne:
     'Greetings! My name is Jeremiah, I am a self-taught front end web developer from Forest City in Canada 🇨🇦',
   paragraphTwo:
-    "I am a highly motivated developer with a burning passion for learning & creativity. In my days off, I am an active participant in outdoor adventures, like hiking. While every hike is unique and varies in difficulty, it must be finished. This enables me to approach my work's overall structure and design with the same mindset and intensity.",
+    "I am a highly motivated developer with a burning passion for learning & creativity. In my days off, I am an active participant in outdoor adventures, like hiking. While every hike is unique and varies in difficulty, it must be finished. This enables me to approach all my work's overall structure and design with the same mindset and intensity.",
   paragraphThree:
     'I specialize in front end development with a solid foundation in back end. I solve complex problems with eleganlty simple solutions.',
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
@@ -33,28 +33,37 @@ export const projectsData = [
     id: nanoid(),
     img: 'exp.png',
     title: 'Experience Rally',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    info: 'A subscription based website that offers three subscription services for live Rally races. It contains a hero page along with additional information, subscription package page and a checkout page.',
+    info2: 'HTML5, Javascript, React, Sass, Framer Motion, React Reveal, React Responsive.',
+    url: 'https://experience-rally.netlify.app',
+    repo: 'https://github.com/jeremiahcanlas/experience', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'exp.png',
+    title: 'Personal Portfolio',
+    info: 'My very own personal portfolio that highlights all my projects and expresses my individuality as a front-end developer.',
+    info2: 'HTML5, Javascript, React, Gatsby, Sass, React Bootstrap, React Reveal.',
+    url: 'https://jeremiahcanlas.com',
+    repo: 'https://github.com/jeremiahcanlas/experience', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'hcw.png',
     title: 'Homecare On Wheels',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    info: 'A website for Homecare On Wheels a local health care organization providing various care services in London and Chatham, Ontario.',
+    info2: 'HTML, Javascript, Sass, jQuery.',
+    url: 'https://www.homecareonwheels.ca/',
+    repo: 'https://github.com/jeremiahcanlas/HCW.github.io', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'gie.png',
     title: 'Golden Image Esthetics',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    info: 'The first static website that I developed for a small business as a self-taught developer. Golden Image Esthetics specializes in esthetics and other beauty services.',
+    info2: 'HTML, Javascript, Sass, jQuery.',
+    url: 'https://www.goldenimageesthetics.ca',
+    repo: 'https://github.com/jeremiahcanlas/GIE.github.io', // if no repo, the button will not show up
   },
 ];
 
@@ -81,12 +90,12 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/jeremiahcanlas/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/jeremiahcanlas',
     },
   ],
 };
