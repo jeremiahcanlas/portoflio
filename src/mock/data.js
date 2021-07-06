@@ -43,7 +43,7 @@ export const projectsData = [
     img: 'hp.png',
     title: 'Homepage',
     info: 'A custom homepage with a relaxing dynamic background, contains: random quote generator, current weather, personalized greeting, current time & date. The weather data comes from openweather API and the quotes are also generated from a random quote data API.',
-    info2: 'HTML5, Javascript, React, Gatsby, Sass, Axios, Framer Motion.',
+    info2: 'HTML5, Javascript, React, Gatsby, GraphQL, Sass, Axios, Framer Motion.',
     url: 'https://jc-homepage.netlify.app',
     repo: 'https://github.com/jeremiahcanlas/homepage', // if no repo, the button will not show up
   },
@@ -52,7 +52,7 @@ export const projectsData = [
     img: 'mp.png',
     title: 'Personal Portfolio',
     info: 'My very own personal portfolio that highlights all my projects and expresses my individuality as a front-end developer.',
-    info2: 'HTML5, Javascript, React, Gatsby, Sass, React Bootstrap, React Reveal.',
+    info2: 'HTML5, Javascript, React, Gatsby, GraphQL, Sass, React Bootstrap, React Reveal.',
     url: 'https://jeremiahcanlas.com',
     repo: 'https://github.com/jeremiahcanlas/experience', // if no repo, the button will not show up
   },
