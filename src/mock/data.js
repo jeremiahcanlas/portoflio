@@ -2,9 +2,9 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Jeremiah Canlas', // e.g: 'Name | Developer'
-  lang: 'en', // e.g: en, es, fr, jp
-  description: 'Welcome to my portfolio', // e.g: Welcome to my website
+  title: 'Jeremiah Canlas',
+  lang: 'en',
+  description: 'Welcome to my portfolio',
 };
 
 // HERO DATA
@@ -19,9 +19,9 @@ export const heroData = {
 export const aboutData = {
   img: 'profilepic.jpg',
   paragraphOne:
-    'Greetings! My name is Jeremiah, I am a self-taught front end web developer from Forest City in Canada 🇨🇦',
+    'Hello! My name is Jeremiah, I am a self-taught front end web developer from Canada 🇨🇦',
   paragraphTwo:
-    "I am a highly motivated developer with a burning passion for learning & creativity. In my days off, I am an active participant in outdoor adventures, like hiking. While every hike is unique and varies in difficulty, it must be finished. This enables me to approach all my work's overall structure and design with the same mindset and intensity.",
+    "I am a highly motivated developer with a burning passion for learning & creativity. In my days off, I am an active participant in outdoor adventures, like hiking. While every hiking trail is unique and varies in difficulty, it must be finished. This enables me to approach all my work's overall structure and design with the same mindset and intensity.",
   paragraphThree:
     'I specialize in front end development with a solid foundation in back end. I solve complex problems with eleganlty simple solutions.',
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
@@ -37,6 +37,15 @@ export const projectsData = [
     info2: 'HTML5, Javascript, React, Sass, Framer Motion, React Reveal, React Responsive.',
     url: 'https://experience-rally.netlify.app',
     repo: 'https://github.com/jeremiahcanlas/experience', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'hp.png',
+    title: 'Homepage',
+    info: 'A custom homepage with a relaxing dynamic background, contains: random quote generator, current weather, personalized greeting, current time & date. The weather data comes from openweather API and the quotes are also generated from a random quote data API.',
+    info2: 'HTML5, Javascript, React, Gatsby, Sass, Axios, Framer Motion.',
+    url: 'https://jc-homepage.netlify.app',
+    repo: 'https://github.com/jeremiahcanlas/homepage', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -69,9 +78,9 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
-  btn: '',
-  email: '',
+  cta: 'How do you like your coffee?',
+  btn: "Let's Chat",
+  email: 'info@jeremiahcanlas.com',
 };
 
 // FOOTER DATA
