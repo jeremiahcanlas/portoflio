@@ -1,4 +1,5 @@
 import { nanoid } from 'nanoid';
+import Resume from '../files/Resume Updated - Feb 28.pdf';
 
 // HEAD DATA
 export const headData = {
@@ -24,7 +25,7 @@ export const aboutData = {
     "I am a highly motivated developer with a burning passion for learning & creativity. In my days off, I am an active participant in outdoor adventures, like hiking. While every hiking trail is unique and varies in difficulty, it must be finished. This enables me to approach all my work's overall structure and design with the same mindset and intensity.",
   paragraphThree:
     'I specialize in front end development with a solid foundation in back end. I solve complex problems with eleganlty simple solutions.',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: `${Resume}`, // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
