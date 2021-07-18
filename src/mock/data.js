@@ -32,7 +32,7 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'exp.png',
+    img: 'rally.png',
     title: 'Experience Rally',
     info: 'A subscription based website that offers three subscription services for live Rally races. It contains a hero page along with additional information, subscription package page and a checkout page.',
     info2: 'HTML5, Javascript, React, Sass, Framer Motion, React Reveal, React Responsive.',
