@@ -38,7 +38,14 @@ const Header = () => {
             I'm a <span>front-end</span> web developer 🚀
           </h1>
         </Fade>
-        <Fade left={isMobile} bottom={isDesktop} duration={1000} delay={1000} distance="30px">
+        <Fade
+          ssrReveal
+          left={isMobile}
+          bottom={isDesktop}
+          duration={1000}
+          delay={1000}
+          distance="30px"
+        >
           <p className="hero-cta">
             <span className="cta-btn cta-btn--hero">
               <Link to="about" smooth duration={1000}>
