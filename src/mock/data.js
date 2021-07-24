@@ -5,7 +5,8 @@ import Resume from '../files/Resume Updated - Feb 28.pdf';
 export const headData = {
   title: 'Jeremiah Canlas',
   lang: 'en',
-  description: 'Portfolio - Jeremiah Canlas',
+  description:
+    'Hello, My name is Jeremiah Canlas, a front-end web developer from Canada. Welcome to my personal portfolio, where you can browse all my projects.',
 };
 
 // HERO DATA
