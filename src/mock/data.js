@@ -55,8 +55,8 @@ export const projectsData = [
     title: 'Personal Portfolio',
     info: 'My very own personal portfolio that highlights all my projects and expresses my individuality as a developer.',
     info2: 'HTML5, Javascript, React, Gatsby, GraphQL, Sass, React Bootstrap, React Reveal.',
-    // url: 'https://jeremiahcanlas.com',
-    repo: 'https://github.com/jeremiahcanlas/portofolio', // if no repo, the button will not show up
+    url: '',
+    repo: 'https://github.com/jeremiahcanlas/portoflio', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
