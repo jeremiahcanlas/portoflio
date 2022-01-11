@@ -1,5 +1,5 @@
 import { nanoid } from 'nanoid';
-import Resume from '../files/Resume Updated - Feb 28.pdf';
+import Resume from '../files/Resume.pdf';
 
 // HEAD DATA
 export const headData = {
