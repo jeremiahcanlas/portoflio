@@ -20,8 +20,7 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profilepic.jpg',
-  paragraphOne:
-    'Hello! My name is Jeremiah, I am a self-taught front end web developer from Canada 🇨🇦',
+  paragraphOne: 'Hello! My name is Jeremiah, I am a front end web developer from Toronto, Canada',
   paragraphTwo:
     "I am a highly motivated developer with a burning passion for learning & creativity. In my days off, I enjoy long and gruelling hikes. While every hiking trail is unique and varies in difficulty, it must be finished. This allows me to approach all my work's overall structure and design with the same mindset and intensity.",
   paragraphThree:
@@ -31,6 +30,15 @@ export const aboutData = {
 
 // PROJECTS DATA
 export const projectsData = [
+  {
+    id: nanoid(),
+    img: 'ttw.png',
+    title: 'Through The Woods',
+    info: 'A personal blog app that tracks and highlights explored trails. Authorized users can create, update and delete trail entries. A full CRUD application that utilizes NextJS with ChakraUI, Strapi CMS backend with MongoDB and Cloudinary.',
+    info2: 'NextJS, NextAuth, ChakraUI, Strapi, MongoDB, Cloudinary, Axios, MapboxGL',
+    url: 'https://throughthewoods.netlify.app',
+    repo: 'https://github.com/jeremiahcanlas/through-the-woods', // if no repo, the button will not show up
+  },
   {
     id: nanoid(),
     img: 'rally.png',
@@ -67,15 +75,15 @@ export const projectsData = [
     url: 'https://www.homecareonwheels.ca/',
     repo: 'https://github.com/jeremiahcanlas/HCW.github.io', // if no repo, the button will not show up
   },
-  {
-    id: nanoid(),
-    img: 'gie.png',
-    title: 'Golden Image Esthetics',
-    info: 'The first static website that I developed for a small business as a self-taught developer. Golden Image Esthetics specializes in esthetics and other beauty services.',
-    info2: 'HTML, Javascript, Sass, jQuery.',
-    url: 'https://www.goldenimageesthetics.ca',
-    repo: 'https://github.com/jeremiahcanlas/GIE.github.io', // if no repo, the button will not show up
-  },
+  // {
+  //   id: nanoid(),
+  //   img: 'gie.png',
+  //   title: 'Golden Image Esthetics',
+  //   info: 'The first static website that I developed for a small business as a self-taught developer. Golden Image Esthetics specializes in esthetics and other beauty services.',
+  //   info2: 'HTML, Javascript, Sass, jQuery.',
+  //   url: 'https://www.goldenimageesthetics.ca',
+  //   repo: 'https://github.com/jeremiahcanlas/GIE.github.io', // if no repo, the button will not show up
+  // },
 ];
 
 // CONTACT DATA
