@@ -65,6 +65,11 @@
 .cta-btn--resume {
   color: $white-color;
   border: 2px solid $white-color;
+  align-self: flex-start;
+
+  @include respond(tab-port) {
+    align-self: center;
+  }
 
   &::after {
     background: $white-color;

@@ -19,12 +19,12 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profilepic.jpg',
-  paragraphOne: 'Hello! My name is Jeremiah, I am a front end web developer from Toronto, Canada',
+  img: 'profilepic.jpeg',
+  paragraphOne: 'My name is Jeremiah, I am a front end web developer from Toronto.',
   paragraphTwo:
-    "I am a highly motivated developer with a burning passion for learning & creativity. In my days off, I enjoy long and gruelling hikes. While every hiking trail is unique and varies in difficulty, it must be finished. This allows me to approach all my work's overall structure and design with the same mindset and intensity.",
+    "I am a highly motivated developer with a burning passion for learning, creativity, and a keen for perfecting the smallest of details. In my spare time, I highly enjoy long and challenging hikes. Every hiking trail is unique and varies in difficulty, however, it must be finished. This experience allows me to develop patience, discipline, and to approach all my work's overall structure and design with the same mindset and intensity.",
   paragraphThree:
-    'I specialize in front end development with a solid foundation in back end. I solve complex problems with eleganlty simple solutions.',
+    'I specialize in front end development with a solid foundation in back end, solving complex problems with elegantly simple solutions.',
   resume: `${Resume}`, // if no resume, the button will not show up
 };
 
